@@ -14,6 +14,8 @@
 		0A1FBC7A1CC00D0200CBF327 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A1FBC781CC00D0200CBF327 /* LaunchScreen.storyboard */; };
 		0A1FBC851CC00D0200CBF327 /* Jade_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1FBC841CC00D0200CBF327 /* Jade_2Tests.swift */; };
 		0A1FBC901CC00D0200CBF327 /* Jade_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1FBC8F1CC00D0200CBF327 /* Jade_2UITests.swift */; };
+		0AF656D11CC2BA5F001A0285 /* greeting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF656D01CC2BA5F001A0285 /* greeting.swift */; };
+		0AF656D31CC2F0DD001A0285 /* genderIdentity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF656D21CC2F0DD001A0285 /* genderIdentity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		0A1FBC8B1CC00D0200CBF327 /* Jade 2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jade 2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A1FBC8F1CC00D0200CBF327 /* Jade_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jade_2UITests.swift; sourceTree = "<group>"; };
 		0A1FBC911CC00D0200CBF327 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AF656D01CC2BA5F001A0285 /* greeting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = greeting.swift; path = ../greeting.swift; sourceTree = "<group>"; };
+		0AF656D21CC2F0DD001A0285 /* genderIdentity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = genderIdentity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +102,10 @@
 			isa = PBXGroup;
 			children = (
 				0A1FBC6F1CC00D0200CBF327 /* AppDelegate.swift */,
-				0A1FBC711CC00D0200CBF327 /* ViewController.swift */,
 				0A1FBC731CC00D0200CBF327 /* Main.storyboard */,
+				0A1FBC711CC00D0200CBF327 /* ViewController.swift */,
+				0AF656D01CC2BA5F001A0285 /* greeting.swift */,
+				0AF656D21CC2F0DD001A0285 /* genderIdentity.swift */,
 				0A1FBC761CC00D0200CBF327 /* Assets.xcassets */,
 				0A1FBC781CC00D0200CBF327 /* LaunchScreen.storyboard */,
 				0A1FBC7B1CC00D0200CBF327 /* Info.plist */,
@@ -261,6 +267,8 @@
 			files = (
 				0A1FBC721CC00D0200CBF327 /* ViewController.swift in Sources */,
 				0A1FBC701CC00D0200CBF327 /* AppDelegate.swift in Sources */,
+				0AF656D31CC2F0DD001A0285 /* genderIdentity.swift in Sources */,
+				0AF656D11CC2BA5F001A0285 /* greeting.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,6 +493,7 @@
 				0A1FBC961CC00D0200CBF327 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0A1FBC971CC00D0200CBF327 /* Build configuration list for PBXNativeTarget "Jade 2Tests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +502,7 @@
 				0A1FBC991CC00D0200CBF327 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0A1FBC9A1CC00D0200CBF327 /* Build configuration list for PBXNativeTarget "Jade 2UITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +511,7 @@
 				0A1FBC9C1CC00D0200CBF327 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
