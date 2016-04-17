@@ -8,14 +8,43 @@
 
 import UIKit
 
-class genderIdentity: UIViewController {
+class greeting: UIViewController {
+    @IBOutlet weak var genderPicker: UIPickerView!
+    @IBOutlet weak var userName: UILabel!
     var userNameString = String()
     
-    @IBOutlet weak var identityLabel: UILabel!
-    
     override func viewDidLoad() {
-        identityLabel.text = " \(userNameString), how do you identify?"
+        userName.text = "Hello \(userNameString)"
     }
-
+    
+    @IBAction func nextButton2(sender: AnyObject) {
+    }
+    
+    func numberOfComponentsInPickerView(pickerView: UIPickerView) -> Int {
+        return 1
+    }
+    
+    func pickerView(pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+        return genderList.count
+    }
+    
+    func pickerView(pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+        
+        
+        pickerView.showsSelectionIndicator = true
+        return "\(genderList[row])"
+    }
+    
+    func pickerView(pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+        
+    }
+    
+    var genderList = [ ("Female"), ("Male"), ("Female and Male") ]
+    
     
 }
+
+
+
+
+
