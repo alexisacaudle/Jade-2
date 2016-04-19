@@ -53,7 +53,11 @@
                                         </state>
                                         <connections>
                                             <action selector="nextButton1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VzB-An-ANi"/>
+<<<<<<< HEAD
                                             <segue destination="YXg-g6-XEc" kind="show" id="30U-pg-zl6"/>
+=======
+                                            <segue destination="YXg-g6-XEc" kind="show" id="6Df-M2-Rff"/>
+>>>>>>> 46b6e953f61cc5e8ecea41bdd286e049e9e6075e
                                         </connections>
                                     </button>
                                 </subviews>
@@ -146,7 +150,10 @@
                                 </state>
                                 <connections>
                                     <action selector="nextButton2:" destination="52C-Mq-7gy" eventType="touchUpInside" id="wOs-GK-Iob"/>
+<<<<<<< HEAD
                                     <segue destination="ZrY-yJ-DDX" kind="show" id="Pjb-vl-Ihp"/>
+=======
+>>>>>>> 46b6e953f61cc5e8ecea41bdd286e049e9e6075e
                                 </connections>
                             </button>
                         </subviews>
@@ -172,12 +179,20 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ETG-Qt-LoV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+<<<<<<< HEAD
             <point key="canvasLocation" x="1070" y="387"/>
+=======
+            <point key="canvasLocation" x="1129" y="387"/>
+>>>>>>> 46b6e953f61cc5e8ecea41bdd286e049e9e6075e
         </scene>
         <!--identity-->
         <scene sceneID="kgO-sd-ExT">
             <objects>
+<<<<<<< HEAD
                 <viewController storyboardIdentifier="genderidentity" title="identity" id="YXg-g6-XEc" customClass="genderIdentity" customModule="Jade_2" customModuleProvider="target" sceneMemberID="viewController">
+=======
+                <viewController storyboardIdentifier="genderIdentity" title="identity" id="YXg-g6-XEc" customClass="genderIdentity" customModule="Jade_2" customModuleProvider="target" sceneMemberID="viewController">
+>>>>>>> 46b6e953f61cc5e8ecea41bdd286e049e9e6075e
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="1a6-KP-S4o"/>
                         <viewControllerLayoutGuide type="bottom" id="UCa-fo-zT1"/>
@@ -187,9 +202,15 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8e9-Ci-vec">
+<<<<<<< HEAD
                                 <rect key="frame" x="25" y="269" width="271" height="77"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="77" id="Ufb-w0-kgs"/>
+=======
+                                <rect key="frame" x="25" y="314" width="271" height="77"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="77" id="J5T-hy-TGn"/>
+>>>>>>> 46b6e953f61cc5e8ecea41bdd286e049e9e6075e
                                 </constraints>
                                 <fontDescription key="fontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="25"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -198,6 +219,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="JadeBlack" translatesAutoresizingMaskIntoConstraints="NO" id="nR8-8G-Fhn">
                                 <rect key="frame" x="121" y="63" width="78" height="26"/>
                                 <constraints>
+<<<<<<< HEAD
                                     <constraint firstAttribute="width" constant="78" id="YSg-ae-a2N"/>
                                     <constraint firstAttribute="height" constant="26" id="qug-Gz-bQK"/>
                                 </constraints>
@@ -214,12 +236,24 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="cPa-18-Ujc"/>
                                     <constraint firstAttribute="width" constant="60" id="zkd-oV-vJo"/>
+=======
+                                    <constraint firstAttribute="height" constant="26" id="3HU-La-4rQ"/>
+                                    <constraint firstAttribute="width" constant="78" id="LpN-fK-7Ce"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QA5-CC-ZCA">
+                                <rect key="frame" x="240" y="518" width="60" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Y4T-S6-6UD"/>
+                                    <constraint firstAttribute="width" constant="60" id="jf6-dy-awJ"/>
+>>>>>>> 46b6e953f61cc5e8ecea41bdd286e049e9e6075e
                                 </constraints>
                                 <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="17"/>
                                 <state key="normal" title="Next">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
+<<<<<<< HEAD
                                     <segue destination="52C-Mq-7gy" kind="show" id="hz8-ps-v22"/>
                                 </connections>
                             </button>
@@ -235,17 +269,47 @@
                             <constraint firstItem="gH4-Om-6Ax" firstAttribute="leading" secondItem="h0z-bE-pTL" secondAttribute="leading" id="bDZ-C7-BdK"/>
                             <constraint firstItem="gH4-Om-6Ax" firstAttribute="bottom" secondItem="QA5-CC-ZCA" secondAttribute="bottom" id="oyt-rk-BeJ"/>
                             <constraint firstItem="8e9-Ci-vec" firstAttribute="centerX" secondItem="gH4-Om-6Ax" secondAttribute="centerX" id="wY3-3G-ay6"/>
+=======
+                                    <action selector="nextButton1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fu9-YH-goG"/>
+                                    <segue destination="52C-Mq-7gy" kind="show" id="jcH-QR-DtQ"/>
+                                </connections>
+                            </button>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MZz-3U-TJB">
+                                <rect key="frame" x="0.0" y="332" width="320" height="216"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="YXg-g6-XEc" id="pMN-3u-lWy"/>
+                                    <outlet property="delegate" destination="YXg-g6-XEc" id="I4l-VJ-ckU"/>
+                                </connections>
+                            </pickerView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="MZz-3U-TJB" firstAttribute="bottom" secondItem="QA5-CC-ZCA" secondAttribute="bottom" id="2Bx-sH-MiI"/>
+                            <constraint firstItem="nR8-8G-Fhn" firstAttribute="top" secondItem="1a6-KP-S4o" secondAttribute="bottom" constant="43" id="FIo-cq-V4T"/>
+                            <constraint firstItem="8e9-Ci-vec" firstAttribute="centerX" secondItem="MZz-3U-TJB" secondAttribute="centerX" id="IDO-Tm-T7X"/>
+                            <constraint firstItem="8e9-Ci-vec" firstAttribute="leading" secondItem="h0z-bE-pTL" secondAttribute="leadingMargin" constant="9" id="N9l-YB-Psy"/>
+                            <constraint firstAttribute="bottom" secondItem="MZz-3U-TJB" secondAttribute="bottom" constant="20" symbolic="YES" id="NWp-F0-1K7"/>
+                            <constraint firstItem="nR8-8G-Fhn" firstAttribute="centerX" secondItem="8e9-Ci-vec" secondAttribute="centerX" id="SBt-Rf-UFL"/>
+                            <constraint firstItem="MZz-3U-TJB" firstAttribute="leading" secondItem="h0z-bE-pTL" secondAttribute="leading" id="VIn-1Z-6kO"/>
+                            <constraint firstAttribute="bottom" secondItem="8e9-Ci-vec" secondAttribute="bottom" constant="177" id="bVW-Cl-MNd"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="QA5-CC-ZCA" secondAttribute="trailing" constant="4" id="mX0-VV-R8U"/>
+>>>>>>> 46b6e953f61cc5e8ecea41bdd286e049e9e6075e
                         </constraints>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
+<<<<<<< HEAD
                         <outlet property="genderIDPicker" destination="gH4-Om-6Ax" id="S1E-wy-bhq"/>
+=======
+                        <outlet property="genderIDPicker" destination="MZz-3U-TJB" id="CwA-9P-1he"/>
+>>>>>>> 46b6e953f61cc5e8ecea41bdd286e049e9e6075e
                         <outlet property="identityLabel" destination="8e9-Ci-vec" id="vi0-H0-It4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TIB-QU-rdJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+<<<<<<< HEAD
             <point key="canvasLocation" x="686" y="387"/>
         </scene>
         <!--Female1-->
@@ -257,12 +321,26 @@
                         <viewControllerLayoutGuide type="bottom" id="BoC-4f-IRS"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="zmU-gn-Uit">
+=======
+            <point key="canvasLocation" x="731" y="387"/>
+        </scene>
+        <!--Male Controller1-->
+        <scene sceneID="bWa-bq-Fsv">
+            <objects>
+                <viewController id="WEJ-XO-pzI" customClass="maleController1" customModule="Jade_2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="KhR-O6-drv"/>
+                        <viewControllerLayoutGuide type="bottom" id="gKp-8h-UaX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="OE8-Z6-EH8">
+>>>>>>> 46b6e953f61cc5e8ecea41bdd286e049e9e6075e
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
+<<<<<<< HEAD
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eMc-xi-kGp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1480" y="697"/>
@@ -310,11 +388,38 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a6e-bm-1G9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1480" y="66"/>
+=======
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uIZ-y1-CuM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1521" y="81"/>
+        </scene>
+        <!--Female Controller1-->
+        <scene sceneID="pg0-fA-CSe">
+            <objects>
+                <viewController id="nkh-QP-fnh" customClass="femaleController1" customModule="Jade_2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fwP-Ck-1PK"/>
+                        <viewControllerLayoutGuide type="bottom" id="FIc-6P-Ji7"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="E04-nq-kzy">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ykc-7C-bA2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1521" y="730"/>
+>>>>>>> 46b6e953f61cc5e8ecea41bdd286e049e9e6075e
         </scene>
     </scenes>
     <resources>
         <image name="JadeBlack" width="316" height="112"/>
         <image name="JadeWhite" width="316" height="111"/>
+<<<<<<< HEAD
         <image name="Jademockup11" width="1250" height="2224"/>
+=======
+>>>>>>> 46b6e953f61cc5e8ecea41bdd286e049e9e6075e
     </resources>
 </document>

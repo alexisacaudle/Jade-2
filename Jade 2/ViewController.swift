@@ -26,8 +26,13 @@ class ViewController: UIViewController, UITextFieldDelegate {
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+<<<<<<< HEAD
         let identityViewController : genderIdentity = segue.destinationViewController as! genderIdentity
         identityViewController.userNameString = firstName.text!
+=======
+        let genderIdentityViewController : genderIdentity = segue.destinationViewController as! genderIdentity
+        genderIdentityViewController.userNameString = firstName.text!
+>>>>>>> 46b6e953f61cc5e8ecea41bdd286e049e9e6075e
     }
     
     override func viewDidLoad() {

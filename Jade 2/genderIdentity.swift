@@ -8,6 +8,7 @@
 
 import UIKit
 
+<<<<<<< HEAD
 class genderIdentity: UIViewController {
     
     
@@ -30,6 +31,18 @@ class genderIdentity: UIViewController {
     
     override func viewDidLoad() {
         identityLabel.text = " \(userNameString), how do you identify?"
+=======
+class greeting: UIViewController {
+    @IBOutlet weak var genderPicker: UIPickerView!
+    @IBOutlet weak var userName: UILabel!
+    var userNameString = String()
+    
+    override func viewDidLoad() {
+        userName.text = "Hello \(userNameString)"
+    }
+    
+    @IBAction func nextButton2(sender: AnyObject) {
+>>>>>>> 46b6e953f61cc5e8ecea41bdd286e049e9e6075e
     }
     
     func numberOfComponentsInPickerView(pickerView: UIPickerView) -> Int {
@@ -37,23 +50,45 @@ class genderIdentity: UIViewController {
     }
     
     func pickerView(pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+<<<<<<< HEAD
         return genderIDList.count
     }
     
     func pickerView(pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
         pickerView.showsSelectionIndicator = true
         return "\(genderIDList[row])"
+=======
+        return genderList.count
+    }
+    
+    func pickerView(pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+        
+        
+        pickerView.showsSelectionIndicator = true
+        return "\(genderList[row])"
+>>>>>>> 46b6e953f61cc5e8ecea41bdd286e049e9e6075e
     }
     
     func pickerView(pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         
     }
+<<<<<<< HEAD
     var genderIDList = [ ("Cis Female"), (" Cis Male"), ("Non-binary"), ("Trans Female"), ("Trans Male") ]
     
     
+=======
+    
+    var genderList = [ ("Female"), ("Male"), ("Female and Male") ]
+>>>>>>> 46b6e953f61cc5e8ecea41bdd286e049e9e6075e
     
     
 }
 
+<<<<<<< HEAD
     
+=======
+
+
+
+>>>>>>> 46b6e953f61cc5e8ecea41bdd286e049e9e6075e
 
